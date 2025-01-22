@@ -1,1 +1,7 @@
-//your JS code here. If required.
+let dropdown = document.getElementById("colorSelect");
+
+function renderDropdown() {
+	let selectedIndex = dropdown.selectedIndex;
+	dropdown.remove(selectedIndex)
+}
+
